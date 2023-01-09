@@ -1,0 +1,7 @@
+
+"loadButton" = "Load";
+"notLoaded" = "Not loaded";
+"loading" = "Loading...";
+"online" = "Online";
+"offline" = "Offline";
+"canNotConnect" = "Can not connect";

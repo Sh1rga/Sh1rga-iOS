@@ -1,0 +1,7 @@
+
+"loadButton" = "Загрузить";
+"notLoaded" = "Не загружено";
+"loading" = "Загрузка...";
+"online" = "Онлайн";
+"offline" = "Не в сети";
+"canNotConnect" = "Не удается подключиться";

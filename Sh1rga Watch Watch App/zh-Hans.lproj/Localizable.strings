@@ -1,0 +1,7 @@
+
+"loadButton" = "负载";
+"notLoaded" = "未加载";
+"loading" = "正在加载...";
+"online" = "在线";
+"offline" = "离线";
+"canNotConnect" = "无法连接";

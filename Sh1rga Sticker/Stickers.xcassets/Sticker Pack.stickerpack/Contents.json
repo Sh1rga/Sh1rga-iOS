@@ -1,0 +1,23 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "large"
+  },
+  "stickers" : [
+    {
+      "filename" : "Sh1rga Chat room ID.sticker"
+    },
+    {
+      "filename" : "Encryption.sticker"
+    },
+    {
+      "filename" : "E2EE.sticker"
+    },
+    {
+      "filename" : "Sh1rga icon.sticker"
+    }
+  ]
+}

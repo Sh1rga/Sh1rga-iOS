@@ -1,0 +1,7 @@
+
+"loadButton" = "إعادة تحميل";
+"notLoaded" = "لم يتم التحميل";
+"loading" = "جار التحميل...";
+"online" = "متصل";
+"offline" = "غير متصل";
+"canNotConnect" = "لا يمكن الاتصال";

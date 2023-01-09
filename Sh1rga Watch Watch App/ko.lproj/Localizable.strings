@@ -1,0 +1,7 @@
+
+"loadButton" = "짐";
+"notLoaded" = "로드되지 않음";
+"loading" = "로드 중...";
+"online" = "온라인";
+"offline" = "오프라인";
+"canNotConnect" = "연결할 수 없습니다";

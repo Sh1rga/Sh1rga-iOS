@@ -1,0 +1,7 @@
+
+"loadButton" = "加載";
+"notLoaded" = "未加載";
+"loading" = "正在加載...";
+"online" = "在線";
+"offline" = "離線";
+"canNotConnect" = "無法連接";

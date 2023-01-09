@@ -1,0 +1,7 @@
+
+"loadButton" = "Chargement";
+"notLoaded" = "Non chargé";
+"loading" = "Chargement...";
+"online" = "En ligne";
+"offline" = "Hors ligne";
+"canNotConnect" = "Impossible de se connecter";

@@ -1,0 +1,1739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902A3B5128855253009910AE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902A3B5028855253009910AE /* SettingView.swift */; };
+		902A3B532886BE8C009910AE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902A3B522886BE8C009910AE /* TabBarController.swift */; };
+		9048AAFB291377C7006FEADA /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9048AAFA291377C7006FEADA /* Stickers.xcassets */; };
+		9048AAFF291377C7006FEADA /* Sh1rga Sticker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9048AAF8291377C5006FEADA /* Sh1rga Sticker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9048AB3929139547006FEADA /* widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9048AB3C29139547006FEADA /* widget.intentdefinition */; };
+		9048AB3A29139547006FEADA /* widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9048AB3C29139547006FEADA /* widget.intentdefinition */; };
+		905E651E2910F73A00605E2F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905E651D2910F73900605E2F /* WidgetKit.framework */; };
+		905E65202910F73A00605E2F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905E651F2910F73A00605E2F /* SwiftUI.framework */; };
+		905E65232910F73A00605E2F /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E65222910F73A00605E2F /* widget.swift */; };
+		905E65262910F73C00605E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905E65252910F73C00605E2F /* Assets.xcassets */; };
+		905E652C2910F73C00605E2F /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 905E651C2910F73900605E2F /* widgetExtension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		905E65362910F9B600605E2F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 905E65352910F9B600605E2F /* icon.png */; };
+		905E65372910F9B600605E2F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 905E65352910F9B600605E2F /* icon.png */; };
+		906F67AE2913610200E2C762 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 906F67B02913610200E2C762 /* Localizable.strings */; };
+		90705AE1282F9BAC00589719 /* app in Resources */ = {isa = PBXBuildFile; fileRef = 90705AE0282F9BAC00589719 /* app */; };
+		90705AE4282FB56200589719 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90705AE3282FB56200589719 /* SystemConfiguration.framework */; };
+		907E85A12912BC3E00458ED2 /* Sh1rga.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 90DF2F782912A3700005B6C5 /* Sh1rga.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		907E85A72912C45000458ED2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 907E85A92912C45000458ED2 /* Localizable.strings */; };
+		90B50CE02854D23C004271E4 /* iconblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CD42854D23B004271E4 /* iconblack.png */; };
+		90B50CE12854D23C004271E4 /* iconapp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CD52854D23B004271E4 /* iconapp@2x.png */; };
+		90B50CE22854D23C004271E4 /* iconapp_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CD62854D23B004271E4 /* iconapp_ipad.png */; };
+		90B50CE32854D23C004271E4 /* iconblack_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CD72854D23B004271E4 /* iconblack_ipad.png */; };
+		90B50CE42854D23C004271E4 /* iconblack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CD82854D23B004271E4 /* iconblack@2x.png */; };
+		90B50CE52854D23C004271E4 /* iconapp_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CD92854D23B004271E4 /* iconapp_ipad@2x.png */; };
+		90B50CE62854D23C004271E4 /* iconblack_ipadpro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CDA2854D23B004271E4 /* iconblack_ipadpro@2x.png */; };
+		90B50CE72854D23C004271E4 /* iconapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CDB2854D23B004271E4 /* iconapp.png */; };
+		90B50CE82854D23C004271E4 /* iconblack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CDC2854D23B004271E4 /* iconblack@3x.png */; };
+		90B50CE92854D23C004271E4 /* iconapp_ipadpro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CDD2854D23B004271E4 /* iconapp_ipadpro@2x.png */; };
+		90B50CEA2854D23C004271E4 /* iconblack_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CDE2854D23B004271E4 /* iconblack_ipad@2x.png */; };
+		90B50CEB2854D23C004271E4 /* iconapp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B50CDF2854D23C004271E4 /* iconapp@3x.png */; };
+		90CA41BF282F92E300E633EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA41BE282F92E300E633EB /* AppDelegate.swift */; };
+		90CA41C1282F92E300E633EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA41C0282F92E300E633EB /* SceneDelegate.swift */; };
+		90CA41C3282F92E300E633EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA41C2282F92E300E633EB /* ViewController.swift */; };
+		90CA41C6282F92E300E633EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CA41C4282F92E300E633EB /* Main.storyboard */; };
+		90CA41C8282F92E500E633EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90CA41C7282F92E500E633EB /* Assets.xcassets */; };
+		90CA41CB282F92E500E633EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CA41C9282F92E500E633EB /* LaunchScreen.storyboard */; };
+		90DF2F7B2912A3710005B6C5 /* Sh1rga_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF2F7A2912A3710005B6C5 /* Sh1rga_WatchApp.swift */; };
+		90DF2F7D2912A3710005B6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DF2F7C2912A3710005B6C5 /* ContentView.swift */; };
+		90DF2F7F2912A3720005B6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DF2F7E2912A3720005B6C5 /* Assets.xcassets */; };
+		90DF2F822912A3720005B6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DF2F812912A3720005B6C5 /* Preview Assets.xcassets */; };
+		90DF2F892912A43A0005B6C5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90DF2F882912A43A0005B6C5 /* icon.png */; };
+		90ED9C68291286AF00267AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED9C67291286AF00267AD2 /* AppDelegate.swift */; };
+		90ED9C6A291286AF00267AD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED9C69291286AF00267AD2 /* SceneDelegate.swift */; };
+		90ED9C6C291286AF00267AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ED9C6B291286AF00267AD2 /* ViewController.swift */; };
+		90ED9C6F291286AF00267AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90ED9C6D291286AF00267AD2 /* Main.storyboard */; };
+		90ED9C71291286B000267AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90ED9C70291286B000267AD2 /* Assets.xcassets */; };
+		90ED9C74291286B000267AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90ED9C72291286B000267AD2 /* LaunchScreen.storyboard */; };
+		90ED9C79291286B000267AD2 /* Sh1rga Chat Clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 90ED9C65291286AE00267AD2 /* Sh1rga Chat Clip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90ED9C8129128AD200267AD2 /* app in Resources */ = {isa = PBXBuildFile; fileRef = 90ED9C8029128AD200267AD2 /* app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9048AAFD291377C7006FEADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90CA41B3282F92E300E633EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9048AAF7291377C5006FEADA;
+			remoteInfo = "Sh1rga Sticker";
+		};
+		905E652A2910F73C00605E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90CA41B3282F92E300E633EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905E651B2910F73900605E2F;
+			remoteInfo = widgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		905E65322910F73D00605E2F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				905E652C2910F73C00605E2F /* widgetExtension.appex in Embed Foundation Extensions */,
+				9048AAFF291377C7006FEADA /* Sh1rga Sticker.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907E85A42912BC3F00458ED2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				907E85A12912BC3E00458ED2 /* Sh1rga.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ED9C7A291286B100267AD2 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				90ED9C79291286B000267AD2 /* Sh1rga Chat Clip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9010F3C62912AAFE000D5DAD /* Sh1rga Watch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sh1rga Watch Watch App.entitlements"; sourceTree = "<group>"; };
+		9027D3A2287E61B1004032F6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		902A3B5028855253009910AE /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		902A3B522886BE8C009910AE /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		902A3B552888D20B009910AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		9048AAEB2913715A006FEADA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9048AAEC291371C6006FEADA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9048AAED2913736D006FEADA /* Sh1rga-Watch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sh1rga-Watch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9048AAEE29137414006FEADA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9048AAEF29137484006FEADA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9048AAF0291374A8006FEADA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9048AAF1291374CD006FEADA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9048AAF22913751C006FEADA /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9048AAF329137540006FEADA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9048AAF429137562006FEADA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9048AAF529137582006FEADA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9048AAF8291377C5006FEADA /* Sh1rga Sticker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sh1rga Sticker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9048AAFA291377C7006FEADA /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		9048AAFC291377C7006FEADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9048AB3B29139547006FEADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/widget.intentdefinition; sourceTree = "<group>"; };
+		9048AB3E2913954C006FEADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/widget.strings; sourceTree = "<group>"; };
+		9048AB402913954C006FEADA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/widget.strings; sourceTree = "<group>"; };
+		9048AB422913954D006FEADA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/widget.strings"; sourceTree = "<group>"; };
+		9048AB442913954E006FEADA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/widget.strings"; sourceTree = "<group>"; };
+		9048AB462913954E006FEADA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/widget.strings; sourceTree = "<group>"; };
+		9048AB482913954F006FEADA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/widget.strings; sourceTree = "<group>"; };
+		9048AB4A29139550006FEADA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/widget.strings; sourceTree = "<group>"; };
+		9048AB4C29139551006FEADA /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/widget.strings; sourceTree = "<group>"; };
+		9048AB4E29139551006FEADA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/widget.strings; sourceTree = "<group>"; };
+		9048AB5029139552006FEADA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/widget.strings; sourceTree = "<group>"; };
+		9048AB5229139552006FEADA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/widget.strings; sourceTree = "<group>"; };
+		90591654283A313800684EAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90591658283A322D00684EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90591659283A322D00684EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905E651C2910F73900605E2F /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		905E651D2910F73900605E2F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		905E651F2910F73A00605E2F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		905E65222910F73A00605E2F /* widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget.swift; sourceTree = "<group>"; };
+		905E65252910F73C00605E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905E65272910F73C00605E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905E65352910F9B600605E2F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		905E653829110F9F00605E2F /* widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetExtension.entitlements; sourceTree = "<group>"; };
+		906F67AF2913610200E2C762 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906F67B12913632600E2C762 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906F67B22913637400E2C762 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		906F67B32913638300E2C762 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		906F67B42913639F00E2C762 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906F67B5291363BB00E2C762 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906F67B6291363CC00E2C762 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906F67B7291363DB00E2C762 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906F67B8291363E600E2C762 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906F67B9291363F500E2C762 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		906F67BA291363FF00E2C762 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90705AE0282F9BAC00589719 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		90705AE3282FB56200589719 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		907E85A82912C45000458ED2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90A5F5A3284CD23C00DAB853 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		90A5F5A5284CD23D00DAB853 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		90A5F5A7284CD23D00DAB853 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		90A5F5A9284CD23E00DAB853 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		90A5F5AB284CD23F00DAB853 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		90A5F5AD284CD24000DAB853 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		90A5F5AF284CD24000DAB853 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		90A5F5B1284CD24100DAB853 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
+		90A5F5B3284CD24200DAB853 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		90A5F5B7284CD24D00DAB853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90A5F5B9284CD24E00DAB853 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90A5F5BB284CD24E00DAB853 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		90A5F5BD284CD24F00DAB853 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		90A5F5BF284CD24F00DAB853 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90A5F5C1284CD25100DAB853 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90A5F5C3284CD25100DAB853 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90A5F5C5284CD25200DAB853 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90A5F5C7284CD25200DAB853 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90A5F5C9284CD25300DAB853 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90A5F5CB284CD25400DAB853 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90B50CD42854D23B004271E4 /* iconblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconblack.png; sourceTree = "<group>"; };
+		90B50CD52854D23B004271E4 /* iconapp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconapp@2x.png"; sourceTree = "<group>"; };
+		90B50CD62854D23B004271E4 /* iconapp_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconapp_ipad.png; sourceTree = "<group>"; };
+		90B50CD72854D23B004271E4 /* iconblack_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconblack_ipad.png; sourceTree = "<group>"; };
+		90B50CD82854D23B004271E4 /* iconblack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconblack@2x.png"; sourceTree = "<group>"; };
+		90B50CD92854D23B004271E4 /* iconapp_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconapp_ipad@2x.png"; sourceTree = "<group>"; };
+		90B50CDA2854D23B004271E4 /* iconblack_ipadpro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconblack_ipadpro@2x.png"; sourceTree = "<group>"; };
+		90B50CDB2854D23B004271E4 /* iconapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconapp.png; sourceTree = "<group>"; };
+		90B50CDC2854D23B004271E4 /* iconblack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconblack@3x.png"; sourceTree = "<group>"; };
+		90B50CDD2854D23B004271E4 /* iconapp_ipadpro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconapp_ipadpro@2x.png"; sourceTree = "<group>"; };
+		90B50CDE2854D23B004271E4 /* iconblack_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconblack_ipad@2x.png"; sourceTree = "<group>"; };
+		90B50CDF2854D23C004271E4 /* iconapp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconapp@3x.png"; sourceTree = "<group>"; };
+		90CA41BB282F92E300E633EB /* Sh1rga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sh1rga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CA41BE282F92E300E633EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90CA41C0282F92E300E633EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90CA41C2282F92E300E633EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90CA41C7282F92E500E633EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90CA41D8282F994500E633EB /* Sh1rga.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sh1rga.entitlements; sourceTree = "<group>"; };
+		90DA43AD2855E479009105E3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		90DF2F782912A3700005B6C5 /* Sh1rga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sh1rga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DF2F7A2912A3710005B6C5 /* Sh1rga_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sh1rga_WatchApp.swift; sourceTree = "<group>"; };
+		90DF2F7C2912A3710005B6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90DF2F7E2912A3720005B6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90DF2F812912A3720005B6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90DF2F882912A43A0005B6C5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		90ED9C65291286AE00267AD2 /* Sh1rga Chat Clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sh1rga Chat Clip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ED9C67291286AF00267AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90ED9C69291286AF00267AD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90ED9C6B291286AF00267AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90ED9C6E291286AF00267AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90ED9C70291286B000267AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90ED9C73291286B000267AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90ED9C75291286B000267AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ED9C76291286B000267AD2 /* Sh1rga_Chat_Clip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sh1rga_Chat_Clip.entitlements; sourceTree = "<group>"; };
+		90ED9C8029128AD200267AD2 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905E65192910F73900605E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E65202910F73A00605E2F /* SwiftUI.framework in Frameworks */,
+				905E651E2910F73A00605E2F /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CA41B8282F92E300E633EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90705AE4282FB56200589719 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DF2F752912A3700005B6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ED9C62291286AE00267AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9048AAF9291377C5006FEADA /* Sh1rga Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				9048AAFA291377C7006FEADA /* Stickers.xcassets */,
+				9048AAFC291377C7006FEADA /* Info.plist */,
+			);
+			path = "Sh1rga Sticker";
+			sourceTree = "<group>";
+		};
+		905E65212910F73A00605E2F /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				905E65352910F9B600605E2F /* icon.png */,
+				905E65222910F73A00605E2F /* widget.swift */,
+				906F67B02913610200E2C762 /* Localizable.strings */,
+				9048AB3C29139547006FEADA /* widget.intentdefinition */,
+				905E65252910F73C00605E2F /* Assets.xcassets */,
+				905E65272910F73C00605E2F /* Info.plist */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		90705AE2282FB56200589719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90DA43AD2855E479009105E3 /* MessageUI.framework */,
+				90705AE3282FB56200589719 /* SystemConfiguration.framework */,
+				905E651D2910F73900605E2F /* WidgetKit.framework */,
+				905E651F2910F73A00605E2F /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90CA41B2282F92E300E633EB = {
+			isa = PBXGroup;
+			children = (
+				905E653829110F9F00605E2F /* widgetExtension.entitlements */,
+				90CA41BD282F92E300E633EB /* Sh1rga */,
+				905E65212910F73A00605E2F /* widget */,
+				90ED9C66291286AF00267AD2 /* Sh1rga Chat Clip */,
+				90DF2F792912A3710005B6C5 /* Sh1rga Watch Watch App */,
+				9048AAF9291377C5006FEADA /* Sh1rga Sticker */,
+				90CA41BC282F92E300E633EB /* Products */,
+				90705AE2282FB56200589719 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90CA41BC282F92E300E633EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90CA41BB282F92E300E633EB /* Sh1rga.app */,
+				905E651C2910F73900605E2F /* widgetExtension.appex */,
+				90ED9C65291286AE00267AD2 /* Sh1rga Chat Clip.app */,
+				90DF2F782912A3700005B6C5 /* Sh1rga.app */,
+				9048AAF8291377C5006FEADA /* Sh1rga Sticker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90CA41BD282F92E300E633EB /* Sh1rga */ = {
+			isa = PBXGroup;
+			children = (
+				90CA41D8282F994500E633EB /* Sh1rga.entitlements */,
+				90CA41BE282F92E300E633EB /* AppDelegate.swift */,
+				90CA41C0282F92E300E633EB /* SceneDelegate.swift */,
+				90CA41C2282F92E300E633EB /* ViewController.swift */,
+				902A3B522886BE8C009910AE /* TabBarController.swift */,
+				902A3B5028855253009910AE /* SettingView.swift */,
+				90CA41C9282F92E500E633EB /* LaunchScreen.storyboard */,
+				90CA41C4282F92E300E633EB /* Main.storyboard */,
+				90CA41C7282F92E500E633EB /* Assets.xcassets */,
+				90591654283A313800684EAA /* Info.plist */,
+				90B50CD62854D23B004271E4 /* iconapp_ipad.png */,
+				90B50CD92854D23B004271E4 /* iconapp_ipad@2x.png */,
+				90B50CDD2854D23B004271E4 /* iconapp_ipadpro@2x.png */,
+				90B50CDB2854D23B004271E4 /* iconapp.png */,
+				90B50CD52854D23B004271E4 /* iconapp@2x.png */,
+				90B50CDF2854D23C004271E4 /* iconapp@3x.png */,
+				90B50CD72854D23B004271E4 /* iconblack_ipad.png */,
+				90B50CDE2854D23B004271E4 /* iconblack_ipad@2x.png */,
+				90B50CDA2854D23B004271E4 /* iconblack_ipadpro@2x.png */,
+				90B50CD42854D23B004271E4 /* iconblack.png */,
+				90B50CD82854D23B004271E4 /* iconblack@2x.png */,
+				90B50CDC2854D23B004271E4 /* iconblack@3x.png */,
+				90705AE0282F9BAC00589719 /* app */,
+			);
+			path = Sh1rga;
+			sourceTree = "<group>";
+		};
+		90DF2F792912A3710005B6C5 /* Sh1rga Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9048AAED2913736D006FEADA /* Sh1rga-Watch-Watch-App-Info.plist */,
+				9010F3C62912AAFE000D5DAD /* Sh1rga Watch Watch App.entitlements */,
+				90DF2F882912A43A0005B6C5 /* icon.png */,
+				90DF2F7A2912A3710005B6C5 /* Sh1rga_WatchApp.swift */,
+				90DF2F7C2912A3710005B6C5 /* ContentView.swift */,
+				907E85A92912C45000458ED2 /* Localizable.strings */,
+				90DF2F7E2912A3720005B6C5 /* Assets.xcassets */,
+				90DF2F802912A3720005B6C5 /* Preview Content */,
+			);
+			path = "Sh1rga Watch Watch App";
+			sourceTree = "<group>";
+		};
+		90DF2F802912A3720005B6C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				90DF2F812912A3720005B6C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90ED9C66291286AF00267AD2 /* Sh1rga Chat Clip */ = {
+			isa = PBXGroup;
+			children = (
+				90ED9C8029128AD200267AD2 /* app */,
+				90ED9C67291286AF00267AD2 /* AppDelegate.swift */,
+				90ED9C69291286AF00267AD2 /* SceneDelegate.swift */,
+				90ED9C6B291286AF00267AD2 /* ViewController.swift */,
+				90ED9C6D291286AF00267AD2 /* Main.storyboard */,
+				90ED9C70291286B000267AD2 /* Assets.xcassets */,
+				90ED9C72291286B000267AD2 /* LaunchScreen.storyboard */,
+				90ED9C75291286B000267AD2 /* Info.plist */,
+				90ED9C76291286B000267AD2 /* Sh1rga_Chat_Clip.entitlements */,
+			);
+			path = "Sh1rga Chat Clip";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9048AAF7291377C5006FEADA /* Sh1rga Sticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9048AB00291377C7006FEADA /* Build configuration list for PBXNativeTarget "Sh1rga Sticker" */;
+			buildPhases = (
+				9048AAF6291377C5006FEADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sh1rga Sticker";
+			productName = "Sh1rga Sticker";
+			productReference = 9048AAF8291377C5006FEADA /* Sh1rga Sticker.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+		905E651B2910F73900605E2F /* widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905E652D2910F73D00605E2F /* Build configuration list for PBXNativeTarget "widgetExtension" */;
+			buildPhases = (
+				905E65182910F73900605E2F /* Sources */,
+				905E65192910F73900605E2F /* Frameworks */,
+				905E651A2910F73900605E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetExtension;
+			productName = widgetExtension;
+			productReference = 905E651C2910F73900605E2F /* widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		90CA41BA282F92E300E633EB /* Sh1rga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CA41CF282F92E500E633EB /* Build configuration list for PBXNativeTarget "Sh1rga" */;
+			buildPhases = (
+				90CA41B7282F92E300E633EB /* Sources */,
+				90CA41B8282F92E300E633EB /* Frameworks */,
+				90CA41B9282F92E300E633EB /* Resources */,
+				905E65322910F73D00605E2F /* Embed Foundation Extensions */,
+				90ED9C7A291286B100267AD2 /* Embed App Clips */,
+				907E85A42912BC3F00458ED2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905E652B2910F73C00605E2F /* PBXTargetDependency */,
+				9048AAFE291377C7006FEADA /* PBXTargetDependency */,
+			);
+			name = Sh1rga;
+			productName = sh1rga;
+			productReference = 90CA41BB282F92E300E633EB /* Sh1rga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90DF2F772912A3700005B6C5 /* Sh1rga Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DF2F872912A3720005B6C5 /* Build configuration list for PBXNativeTarget "Sh1rga Watch Watch App" */;
+			buildPhases = (
+				90DF2F742912A3700005B6C5 /* Sources */,
+				90DF2F752912A3700005B6C5 /* Frameworks */,
+				90DF2F762912A3700005B6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sh1rga Watch Watch App";
+			productName = "Sh1rga Watch Watch App";
+			productReference = 90DF2F782912A3700005B6C5 /* Sh1rga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90ED9C64291286AE00267AD2 /* Sh1rga Chat Clip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ED9C7F291286B100267AD2 /* Build configuration list for PBXNativeTarget "Sh1rga Chat Clip" */;
+			buildPhases = (
+				90ED9C61291286AE00267AD2 /* Sources */,
+				90ED9C62291286AE00267AD2 /* Frameworks */,
+				90ED9C63291286AE00267AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sh1rga Chat Clip";
+			productName = "Sh1rga Chat Clip";
+			productReference = 90ED9C65291286AE00267AD2 /* Sh1rga Chat Clip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90CA41B3282F92E300E633EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9048AAF7291377C5006FEADA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					905E651B2910F73900605E2F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					90CA41BA282F92E300E633EB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					90DF2F772912A3700005B6C5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					90ED9C64291286AE00267AD2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 90CA41B6282F92E300E633EB /* Build configuration list for PBXProject "Sh1rga" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				ru,
+				"zh-Hans",
+				"zh-Hant",
+				ar,
+				es,
+				pt,
+				fr,
+				de,
+				ko,
+				Base,
+			);
+			mainGroup = 90CA41B2282F92E300E633EB;
+			productRefGroup = 90CA41BC282F92E300E633EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90CA41BA282F92E300E633EB /* Sh1rga */,
+				905E651B2910F73900605E2F /* widgetExtension */,
+				90ED9C64291286AE00267AD2 /* Sh1rga Chat Clip */,
+				90DF2F772912A3700005B6C5 /* Sh1rga Watch Watch App */,
+				9048AAF7291377C5006FEADA /* Sh1rga Sticker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9048AAF6291377C5006FEADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9048AAFB291377C7006FEADA /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905E651A2910F73900605E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E65372910F9B600605E2F /* icon.png in Resources */,
+				906F67AE2913610200E2C762 /* Localizable.strings in Resources */,
+				905E65262910F73C00605E2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CA41B9282F92E300E633EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CA41CB282F92E500E633EB /* LaunchScreen.storyboard in Resources */,
+				90B50CE62854D23C004271E4 /* iconblack_ipadpro@2x.png in Resources */,
+				90B50CE42854D23C004271E4 /* iconblack@2x.png in Resources */,
+				90B50CE82854D23C004271E4 /* iconblack@3x.png in Resources */,
+				90B50CEA2854D23C004271E4 /* iconblack_ipad@2x.png in Resources */,
+				90B50CEB2854D23C004271E4 /* iconapp@3x.png in Resources */,
+				90B50CE22854D23C004271E4 /* iconapp_ipad.png in Resources */,
+				90CA41C8282F92E500E633EB /* Assets.xcassets in Resources */,
+				90705AE1282F9BAC00589719 /* app in Resources */,
+				90B50CE92854D23C004271E4 /* iconapp_ipadpro@2x.png in Resources */,
+				90B50CE12854D23C004271E4 /* iconapp@2x.png in Resources */,
+				90B50CE02854D23C004271E4 /* iconblack.png in Resources */,
+				905E65362910F9B600605E2F /* icon.png in Resources */,
+				90B50CE52854D23C004271E4 /* iconapp_ipad@2x.png in Resources */,
+				90B50CE32854D23C004271E4 /* iconblack_ipad.png in Resources */,
+				90B50CE72854D23C004271E4 /* iconapp.png in Resources */,
+				90CA41C6282F92E300E633EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DF2F762912A3700005B6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DF2F822912A3720005B6C5 /* Preview Assets.xcassets in Resources */,
+				907E85A72912C45000458ED2 /* Localizable.strings in Resources */,
+				90DF2F7F2912A3720005B6C5 /* Assets.xcassets in Resources */,
+				90DF2F892912A43A0005B6C5 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ED9C63291286AE00267AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ED9C8129128AD200267AD2 /* app in Resources */,
+				90ED9C74291286B000267AD2 /* LaunchScreen.storyboard in Resources */,
+				90ED9C71291286B000267AD2 /* Assets.xcassets in Resources */,
+				90ED9C6F291286AF00267AD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905E65182910F73900605E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9048AB3A29139547006FEADA /* widget.intentdefinition in Sources */,
+				905E65232910F73A00605E2F /* widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90CA41B7282F92E300E633EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9048AB3929139547006FEADA /* widget.intentdefinition in Sources */,
+				90CA41C3282F92E300E633EB /* ViewController.swift in Sources */,
+				902A3B5128855253009910AE /* SettingView.swift in Sources */,
+				90CA41BF282F92E300E633EB /* AppDelegate.swift in Sources */,
+				902A3B532886BE8C009910AE /* TabBarController.swift in Sources */,
+				90CA41C1282F92E300E633EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DF2F742912A3700005B6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DF2F7D2912A3710005B6C5 /* ContentView.swift in Sources */,
+				90DF2F7B2912A3710005B6C5 /* Sh1rga_WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ED9C61291286AE00267AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ED9C6C291286AF00267AD2 /* ViewController.swift in Sources */,
+				90ED9C68291286AF00267AD2 /* AppDelegate.swift in Sources */,
+				90ED9C6A291286AF00267AD2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9048AAFE291377C7006FEADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9048AAF7291377C5006FEADA /* Sh1rga Sticker */;
+			targetProxy = 9048AAFD291377C7006FEADA /* PBXContainerItemProxy */;
+		};
+		905E652B2910F73C00605E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 905E651B2910F73900605E2F /* widgetExtension */;
+			targetProxy = 905E652A2910F73C00605E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9048AB3C29139547006FEADA /* widget.intentdefinition */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9048AB3B29139547006FEADA /* Base */,
+				9048AB3E2913954C006FEADA /* en */,
+				9048AB402913954C006FEADA /* ar */,
+				9048AB422913954D006FEADA /* zh-Hans */,
+				9048AB442913954E006FEADA /* zh-Hant */,
+				9048AB462913954E006FEADA /* fr */,
+				9048AB482913954F006FEADA /* de */,
+				9048AB4A29139550006FEADA /* ja */,
+				9048AB4C29139551006FEADA /* ko */,
+				9048AB4E29139551006FEADA /* pt */,
+				9048AB5029139552006FEADA /* ru */,
+				9048AB5229139552006FEADA /* es */,
+			);
+			name = widget.intentdefinition;
+			sourceTree = "<group>";
+		};
+		906F67B02913610200E2C762 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				906F67AF2913610200E2C762 /* en */,
+				906F67B12913632600E2C762 /* ar */,
+				906F67B22913637400E2C762 /* zh-Hans */,
+				906F67B32913638300E2C762 /* zh-Hant */,
+				906F67B42913639F00E2C762 /* fr */,
+				906F67B5291363BB00E2C762 /* de */,
+				906F67B6291363CC00E2C762 /* ja */,
+				906F67B7291363DB00E2C762 /* ko */,
+				906F67B8291363E600E2C762 /* pt */,
+				906F67B9291363F500E2C762 /* ru */,
+				906F67BA291363FF00E2C762 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		907E85A92912C45000458ED2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907E85A82912C45000458ED2 /* en */,
+				9048AAEB2913715A006FEADA /* ar */,
+				9048AAEC291371C6006FEADA /* zh-Hans */,
+				9048AAEE29137414006FEADA /* zh-Hant */,
+				9048AAEF29137484006FEADA /* fr */,
+				9048AAF0291374A8006FEADA /* de */,
+				9048AAF1291374CD006FEADA /* ja */,
+				9048AAF22913751C006FEADA /* ko */,
+				9048AAF329137540006FEADA /* pt */,
+				9048AAF429137562006FEADA /* ru */,
+				9048AAF529137582006FEADA /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		90CA41C4282F92E300E633EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90591658283A322D00684EAA /* Base */,
+				90A5F5A3284CD23C00DAB853 /* ar */,
+				90A5F5A5284CD23D00DAB853 /* zh-Hans */,
+				90A5F5A7284CD23D00DAB853 /* zh-Hant */,
+				90A5F5A9284CD23E00DAB853 /* fr */,
+				90A5F5AB284CD23F00DAB853 /* de */,
+				90A5F5AD284CD24000DAB853 /* ja */,
+				90A5F5AF284CD24000DAB853 /* ko */,
+				90A5F5B1284CD24100DAB853 /* pt */,
+				90A5F5B3284CD24200DAB853 /* ru */,
+				9027D3A2287E61B1004032F6 /* es */,
+				902A3B552888D20B009910AE /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90CA41C9282F92E500E633EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90591659283A322D00684EAA /* Base */,
+				90A5F5B7284CD24D00DAB853 /* en */,
+				90A5F5B9284CD24E00DAB853 /* ar */,
+				90A5F5BB284CD24E00DAB853 /* zh-Hans */,
+				90A5F5BD284CD24F00DAB853 /* zh-Hant */,
+				90A5F5BF284CD24F00DAB853 /* fr */,
+				90A5F5C1284CD25100DAB853 /* de */,
+				90A5F5C3284CD25100DAB853 /* ja */,
+				90A5F5C5284CD25200DAB853 /* ko */,
+				90A5F5C7284CD25200DAB853 /* pt */,
+				90A5F5C9284CD25300DAB853 /* es */,
+				90A5F5CB284CD25400DAB853 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90ED9C6D291286AF00267AD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90ED9C6E291286AF00267AD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90ED9C72291286B000267AD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90ED9C73291286B000267AD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9048AB01291377C7006FEADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga Sticker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.sticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9048AB02291377C7006FEADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga Sticker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.sticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9048AB03291377C7006FEADA /* ReleaseBypass */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga Sticker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.sticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseBypass;
+		};
+		9048AB04291377C7006FEADA /* AltRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga Sticker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.sticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AltRelease;
+		};
+		905E652E2910F73D00605E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		905E652F2910F73D00605E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		905E65302910F73D00605E2F /* ReleaseBypass */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseBypass;
+		};
+		905E65312910F73D00605E2F /* AltRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AltRelease;
+		};
+		90B50CD12850B446004271E4 /* AltRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BACKGROUND_ENABLE = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = ALTRELEASE;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = AltRelease;
+		};
+		90B50CD22850B446004271E4 /* AltRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				BACKGROUND_ENABLE = location;
+				CODE_SIGN_ENTITLEMENTS = sh1rga/sh1rga.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GCC_PREPROCESSOR_DEFINITIONS = "ALTRELEASE=1";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sh1rga/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Sh1rga Chat always requires location to receive notifications when in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Sh1rga Chat requires location to receive notifications when in use.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				OTHER_SWIFT_FLAGS = "-D ALTRELEASE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AltRelease;
+		};
+		90CA41CD282F92E500E633EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BACKGROUND_ENABLE = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		90CA41CE282F92E500E633EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BACKGROUND_ENABLE = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		90CA41D0282F92E500E633EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				BACKGROUND_ENABLE = location;
+				CODE_SIGN_ENTITLEMENTS = sh1rga/sh1rga.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sh1rga/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Sh1rga Chat always requires location to receive notifications when in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Sh1rga Chat requires location to receive notifications when in use.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90CA41D1282F92E500E633EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				BACKGROUND_ENABLE = location;
+				CODE_SIGN_ENTITLEMENTS = sh1rga/sh1rga.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sh1rga/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Sh1rga Chat always requires location to receive notifications when in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Sh1rga Chat requires location to receive notifications when in use.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90DF2F832912A3720005B6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Sh1rga Watch Watch App/Sh1rga Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_ASSET_PATHS = "\"Sh1rga Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tsg0o0.sh1rga;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
+				PRODUCT_NAME = Sh1rga;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		90DF2F842912A3720005B6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Sh1rga Watch Watch App/Sh1rga Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_ASSET_PATHS = "\"Sh1rga Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tsg0o0.sh1rga;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
+				PRODUCT_NAME = Sh1rga;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		90DF2F852912A3720005B6C5 /* ReleaseBypass */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Sh1rga Watch Watch App/Sh1rga Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_ASSET_PATHS = "\"Sh1rga Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tsg0o0.sh1rga;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
+				PRODUCT_NAME = Sh1rga;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = ReleaseBypass;
+		};
+		90DF2F862912A3720005B6C5 /* AltRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Sh1rga Watch Watch App/Sh1rga Watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_ASSET_PATHS = "\"Sh1rga Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga-Watch-Watch-App-Info.plist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tsg0o0.sh1rga;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
+				PRODUCT_NAME = Sh1rga;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = AltRelease;
+		};
+		90E19F21285CA06D0070D4F6 /* ReleaseBypass */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BACKGROUND_ENABLE = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASEBYPASS;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = ReleaseBypass;
+		};
+		90E19F22285CA06D0070D4F6 /* ReleaseBypass */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				BACKGROUND_ENABLE = fetch;
+				CODE_SIGN_ENTITLEMENTS = sh1rga/sh1rga.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sh1rga/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Sh1rga Chat always requires location to receive notifications when in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Sh1rga Chat requires location to receive notifications when in use.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseBypass;
+		};
+		90ED9C7B291286B100267AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Sh1rga Chat Clip/Sh1rga_Chat_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga Chat Clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Chat";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsg0o0.sh1rga.chat-clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90ED9C7C291286B100267AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Sh1rga Chat Clip/Sh1rga_Chat_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga Chat Clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Chat";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsg0o0.sh1rga.chat-clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90ED9C7D291286B100267AD2 /* ReleaseBypass */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Sh1rga Chat Clip/Sh1rga_Chat_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga Chat Clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Chat";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsg0o0.sh1rga.chat-clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseBypass;
+		};
+		90ED9C7E291286B100267AD2 /* AltRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Sh1rga Chat Clip/Sh1rga_Chat_Clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = PN7VT53C27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sh1rga Chat Clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Chat";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tsg0o0.sh1rga.chat-clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AltRelease;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9048AB00291377C7006FEADA /* Build configuration list for PBXNativeTarget "Sh1rga Sticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9048AB01291377C7006FEADA /* Debug */,
+				9048AB02291377C7006FEADA /* Release */,
+				9048AB03291377C7006FEADA /* ReleaseBypass */,
+				9048AB04291377C7006FEADA /* AltRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905E652D2910F73D00605E2F /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905E652E2910F73D00605E2F /* Debug */,
+				905E652F2910F73D00605E2F /* Release */,
+				905E65302910F73D00605E2F /* ReleaseBypass */,
+				905E65312910F73D00605E2F /* AltRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CA41B6282F92E300E633EB /* Build configuration list for PBXProject "Sh1rga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CA41CD282F92E500E633EB /* Debug */,
+				90CA41CE282F92E500E633EB /* Release */,
+				90E19F21285CA06D0070D4F6 /* ReleaseBypass */,
+				90B50CD12850B446004271E4 /* AltRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CA41CF282F92E500E633EB /* Build configuration list for PBXNativeTarget "Sh1rga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CA41D0282F92E500E633EB /* Debug */,
+				90CA41D1282F92E500E633EB /* Release */,
+				90E19F22285CA06D0070D4F6 /* ReleaseBypass */,
+				90B50CD22850B446004271E4 /* AltRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DF2F872912A3720005B6C5 /* Build configuration list for PBXNativeTarget "Sh1rga Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DF2F832912A3720005B6C5 /* Debug */,
+				90DF2F842912A3720005B6C5 /* Release */,
+				90DF2F852912A3720005B6C5 /* ReleaseBypass */,
+				90DF2F862912A3720005B6C5 /* AltRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ED9C7F291286B100267AD2 /* Build configuration list for PBXNativeTarget "Sh1rga Chat Clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ED9C7B291286B100267AD2 /* Debug */,
+				90ED9C7C291286B100267AD2 /* Release */,
+				90ED9C7D291286B100267AD2 /* ReleaseBypass */,
+				90ED9C7E291286B100267AD2 /* AltRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90CA41B3282F92E300E633EB /* Project object */;
+}
