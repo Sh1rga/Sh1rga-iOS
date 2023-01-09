@@ -210,7 +210,7 @@ background-color:#111;
 .loadCurtain img{
 position:fixed;
 top:calc(50% - 25vh);
-left:calc(50% - 25vh);;
+left:calc(50% - 25vh);
 height:50vh;
 }
 .loadCurtain noscript img{

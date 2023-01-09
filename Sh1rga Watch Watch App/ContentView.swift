@@ -12,8 +12,8 @@ struct ContentView: View {
     @State var statusMsg = NSLocalizedString("notLoaded", comment: "")
     @State var serverOnline = false
     @State var statusColor:Color = .gray
-    @State var address = UserDefaults.standard.string(forKey: "chat.customServer") ?? "https://chat.api-sh1r.ga"
-    @State var addressView = UserDefaults.standard.string(forKey: "chat.customServer") ?? "https://chat.api-sh1r.ga"
+    @State var address = UserDefaults.standard.string(forKey: "chat.customServer") ?? "https://sh1rgapi.tsg0o0.com"
+    @State var addressView = UserDefaults.standard.string(forKey: "chat.customServer") ?? "https://sh1rgapi.tsg0o0.com"
     
     var iphoneSession = iphoneConnect()
     
@@ -21,7 +21,7 @@ struct ContentView: View {
         statusMsg = NSLocalizedString("loading", comment: "")
         statusColor = .gray
         
-        address = UserDefaults.standard.string(forKey: "chat.customServer") ?? "https://chat.api-sh1r.ga"
+        address = UserDefaults.standard.string(forKey: "chat.customServer") ?? "https://sh1rgapi.tsg0o0.com"
         let url = URL(string: address + "/status.json") ?? URL(string: "https://example.com/")
         
         struct Record:Codable {
@@ -57,7 +57,7 @@ struct ContentView: View {
                 .resizable()
                 .frame(width: 130.0, height: 50.0)
                 .accessibilityLabel("Shirga Chat")
-            if address == "https://chat.api-sh1r.ga" {
+            if address == "https://sh1rgapi.tsg0o0.com" {
                 Text("Default Server")
                     .foregroundColor(.gray)
             }else{
@@ -106,7 +106,7 @@ extension iphoneConnect: WCSessionDelegate {
         guard let address = userInfo["address"] as? String else { return }
         DispatchQueue.main.async(execute: { () in
             if address == "" {
-                UserDefaults.standard.set("https://chat.api-sh1r.ga", forKey: "chat.customServer")
+                UserDefaults.standard.set("https://sh1rgapi.tsg0o0.com", forKey: "chat.customServer")
             }else{
                 UserDefaults.standard.set(address, forKey: "chat.customServer")
             }

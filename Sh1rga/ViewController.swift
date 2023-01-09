@@ -55,7 +55,7 @@ class ViewController: UIViewController , WKNavigationDelegate , WKUIDelegate , U
     }
     
     func loadSh1rga() {
-        internetConnection = CheckReachability(host_name: "sh1r.ga")
+        internetConnection = CheckReachability(host_name: "sh1rga.tsg0o0.com")
         appDelegate.lang = "en"
         if Locale.current.languageCode == "ar" {
             appDelegate.lang = "ar"
@@ -187,7 +187,7 @@ class ViewController: UIViewController , WKNavigationDelegate , WKUIDelegate , U
                 struct Record:Codable {
                     let ver: String
                 }
-                let url = URL(string: "https://sh1r.ga/iOSAppSetting.json")!
+                let url = URL(string: "https://sh1rga.tsg0o0.com/iOSAppSetting.json")!
                 let request = URLRequest(url: url)
                 let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
                     guard let data = data else { return }
@@ -215,7 +215,7 @@ class ViewController: UIViewController , WKNavigationDelegate , WKUIDelegate , U
                 struct Record:Codable {
                     let allowMuteWord: Bool
                 }
-                let url = URL(string: "https://sh1r.ga/iOSAppSetting.json")!
+                let url = URL(string: "https://sh1rga.tsg0o0.com/iOSAppSetting.json")!
                 let request = URLRequest(url: url)
                 let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
                     guard let data = data else { return }

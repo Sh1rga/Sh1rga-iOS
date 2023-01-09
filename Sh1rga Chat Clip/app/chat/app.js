@@ -1,4 +1,4 @@
-var version = "0.3.3";
+var version = "0.3.7";
 var socketTime = 0;
 var socketConnect = false;
 var server_encrypt = "";

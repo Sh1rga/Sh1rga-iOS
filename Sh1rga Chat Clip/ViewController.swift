@@ -41,7 +41,7 @@ class ViewController: UIViewController , WKNavigationDelegate , WKUIDelegate , U
     }
     
     func loadSh1rga() {
-        internetConnection = CheckReachability(host_name: "sh1r.ga")
+        internetConnection = CheckReachability(host_name: "sh1rga.tsg0o0.com")
         appDelegate.lang = "en"
         if Locale.current.languageCode == "ar" {
             appDelegate.lang = "ar"
