@@ -4,12 +4,8 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:sh1r.ga</string>
 		<string>applinks:sh1rga.tsg0o0.com</string>
-		<string>applinks:chat.sh1r.ga</string>
 		<string>applinks:tsg0o0.com</string>
-		<string>appclips:sh1r.ga</string>
-		<string>appclips:chat.sh1r.ga</string>
 		<string>appclips:tsg0o0.com</string>
 		<string>appclips:sh1rga.tsg0o0.com</string>
 	</array>
