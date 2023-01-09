@@ -28,20 +28,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "905E651B2910F73900605E2F"
-               BuildableName = "widgetExtension.appex"
-               BlueprintName = "widgetExtension"
-               ReferencedContainer = "container:Sh1rga.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "9048AAF7291377C5006FEADA"
                BuildableName = "Sh1rga Sticker.appex"
                BlueprintName = "Sh1rga Sticker"
