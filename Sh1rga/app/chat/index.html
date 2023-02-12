@@ -22,37 +22,9 @@
 <script>
 var address_api = null;
 function getParam(name, url) {if (!url) url = window.location.href;name = name.replace(/[\[\]]/g, "\\$&");var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),results = regex.exec(url);if (!results) return null;if (!results[2]) return '';return decodeURIComponent(results[2].replace(/\+/g, " "));}
-function UseHTTPS(){
-if (getParam('lang') == null) {
-history.replaceState('','','?protocol=' + "https");
-}else{
-history.replaceState('','','?lang=' + getParam('lang') + '&protocol=' + "https");}
-location.reload();}
-function UseTor(){
-if (getParam('lang') == null) {
-history.replaceState('','','?protocol=' + "tor");
-}else{
-history.replaceState('','','?lang=' + getParam('lang') + '&protocol=' + "tor");}
-location.reload();}
-function UseHTTP(){
-if (getParam('lang') == null) {
-history.replaceState('','','?protocol=' + "http");
-}else{
-history.replaceState('','','?lang=' + getParam('lang') + '&protocol=' + "http");}
-location.reload();}
 if (getParam('customserver') == null) {
-  if (getParam('protocol') == "http") {
-	address_api = "http://sh1rgapi.tsg0o0.com";
-	document.getElementById('box').innerHTML = "<br>Having connection problems?<br>Check your settings.";
-  }else if (getParam('protocol') == "tor") {
-	address_api = "http://sh1rgapi.tsg4o4zjaknpkbefs2k47a7emkl54moz2t2k4py4gbyhz6v7vubsjbad.onion";
-	document.getElementById('box').innerHTML = "<br>Having connection problems?<br>Check your settings.";
-  }else if (getParam('protocol') == "https") {
-	address_api = "https://sh1rgapi.tsg0o0.com";
-	document.getElementById('box').innerHTML = "<br>Having connection problems?<br>Check your settings.";
-  }else{
-	location.reload();
-  }
+  address_api = "https://sh1rgapi.tsg0o0.com";
+  document.getElementById('box').innerHTML = "<br>Having connection problems?<br>Check your settings.";
 }else{
   address_api = getParam('customserver');
   document.getElementById('box').innerHTML = "<br>Having connection problems?<br>Check your settings.";

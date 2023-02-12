@@ -1,4 +1,4 @@
-var version = "0.3.7";
+var version = "0.3.8";
 var socketTime = 0;
 var socketConnect = false;
 var server_encrypt = "";
@@ -44,7 +44,7 @@ function getParam(name, url) {
 var accountID = "";
 window.onload = function(){ loopApp();
 	autoLangSet();
-	if (address_api != null && getParam('protocol') != null) {
+	if (address_api != null) {
 		socketTimeCounter();
 		errorloop();
 	}
@@ -245,17 +245,7 @@ function langSelect() {
 	langFlag = false;
 	langset();
 	langLoad()
-	if (getParam('customserver') == null) {
-	  if (getParam('protocol') == "http") {
-		history.replaceState('','','?lang=' + language + '&protocol=' + "http");
-	  }else if (getParam('protocol') == "https") {
-		history.replaceState('','','?lang=' + language + '&protocol=' + "https");
-	  }else if (getParam('protocol') == "tor") {
-		history.replaceState('','','?lang=' + language + '&protocol=' + "tor");
-	  }else{
-		history.replaceState('','','?lang=' + language);
-	  }
-	}else{
+	if (getParam('customserver') != null) {
 	  history.replaceState('','','?lang=' + language + '&customserver=' + getParam('customserver'));
 	}
 }

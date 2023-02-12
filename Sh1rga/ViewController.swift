@@ -31,7 +31,6 @@ class ViewController: UIViewController , WKNavigationDelegate , WKUIDelegate , U
         webView.uiDelegate = self
         view = webView
         appDelegate.autoSleepDisable = UserDefaults.standard.bool(forKey: "chat.autoSleepDisable")
-        appDelegate.chatProtocol = UserDefaults.standard.string(forKey: "chat.protocol") ?? "https"
         appDelegate.chatCustomServer = groupUserDefaults!.string(forKey: "chat.customServer") ?? ""
         #if !RELEASEBYPASS
         //if ALTRELEASE
@@ -124,9 +123,7 @@ class ViewController: UIViewController , WKNavigationDelegate , WKUIDelegate , U
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         
-        if appDelegate.chatCustomServer == "" {
-            webView.evaluateJavaScript("if (getParam('protocol') == null) {history.replaceState('','','?protocol=' + '" + appDelegate.chatProtocol! + "');location.reload();}")
-        }else{
+        if appDelegate.chatCustomServer != "" {
             webView.evaluateJavaScript("if (getParam('customserver') == null) {history.replaceState('','','?customserver=' + '" + appDelegate.chatCustomServer! + "');location.reload();}")
         }
         

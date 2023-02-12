@@ -177,13 +177,6 @@ class SettingViewController: UIViewController , WKNavigationDelegate , WKUIDeleg
                 }else{
                     webView.evaluateJavaScript("document.getElementById('setting-autoSleepDisable').innerHTML = '<button onclick=\"location.href=\\\'sh1rga://setting/autoSleepDisable/true\\\'\" style=\"color:#ddd\">OFF</button>'")
                 }
-                if appDelegate.chatProtocol == "http" {
-                    webView.evaluateJavaScript("document.getElementById('setting-protocol').innerHTML = 'HTTP (deprecated)'")
-                }else if appDelegate.chatProtocol == "https"{
-                    webView.evaluateJavaScript("document.getElementById('setting-protocol').innerHTML = 'HTTPS'")
-                }else if appDelegate.chatProtocol == "tor"{
-                    webView.evaluateJavaScript("document.getElementById('setting-protocol').innerHTML = 'Tor'")
-                }
                 webView.evaluateJavaScript("document.getElementById('setting-customserver').innerHTML = '" + appDelegate.chatCustomServer! + "'")
                 
                 #if !RELEASEBYPASS
@@ -279,21 +272,6 @@ class SettingViewController: UIViewController , WKNavigationDelegate , WKUIDeleg
                 alert.addAction(cancel)
                 alert.addAction(ok)
                 self.present(alert, animated: true, completion: nil)
-                
-            }else if navigationAction.request.url!.absoluteString == "sh1rga://setting/protocol/http" {
-                appDelegate.chatProtocol = "http"
-                UserDefaults.standard.set("http", forKey: "chat.protocol")
-                webView.evaluateJavaScript("document.getElementById('setting-protocol').innerHTML = 'HTTP (deprecated)'")
-                
-            }else if navigationAction.request.url!.absoluteString == "sh1rga://setting/protocol/https" {
-                appDelegate.chatProtocol = "https"
-                UserDefaults.standard.set("https", forKey: "chat.protocol")
-                webView.evaluateJavaScript("document.getElementById('setting-protocol').innerHTML = 'HTTPS'")
-                
-            }else if navigationAction.request.url!.absoluteString == "sh1rga://setting/protocol/tor" {
-                appDelegate.chatProtocol = "tor"
-                UserDefaults.standard.set("tor", forKey: "chat.protocol")
-                webView.evaluateJavaScript("document.getElementById('setting-protocol').innerHTML = 'Tor'")
                 
             }else if navigationAction.request.url!.absoluteString == "sh1rga://setting/autoSleepDisable/true" {
                 appDelegate.autoSleepDisable = true

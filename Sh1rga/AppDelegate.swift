@@ -22,7 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate , CLLocationManagerDelegat
     var autoSleepDisable = false
     var enableBackground = false
     var muteWord:String? = nil
-    var chatProtocol:String? = nil
     var chatCustomServer:String? = ""
     var enableMuteWord = false
     var allowMuteWord = false
@@ -31,7 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate , CLLocationManagerDelegat
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         autoSleepDisable = UserDefaults.standard.bool(forKey: "chat.autoSleepDisable")
-        chatProtocol = UserDefaults.standard.string(forKey: "chat.protocol") ?? "https"
         chatCustomServer = UserDefaults.standard.string(forKey: "chat.customServer") ?? ""
         WCSession.default.transferUserInfo(["address" : self.chatCustomServer as Any])
         #if !RELEASEBYPASS
