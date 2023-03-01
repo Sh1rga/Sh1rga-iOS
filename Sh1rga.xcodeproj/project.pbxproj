@@ -1313,7 +1313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.3.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
 				PRODUCT_NAME = Sh1rga;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1345,7 +1345,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.3.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
 				PRODUCT_NAME = Sh1rga;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1377,7 +1377,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.3.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
 				PRODUCT_NAME = Sh1rga;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1409,7 +1409,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.3.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
 				PRODUCT_NAME = Sh1rga;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
