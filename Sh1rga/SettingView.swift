@@ -19,7 +19,7 @@ class SettingViewController: UIViewController , WKNavigationDelegate , WKUIDeleg
     var watchSession = watchConnect()
     var webView: WKWebView!
     let locationManager = CLLocationManager()
-    let groupUserDefaults = UserDefaults(suiteName: "group.com.tsg0o0.sh1rga")
+    let groupUserDefaults = UserDefaults(suiteName: "group.com.tsg0o0.sh1rgagroup")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -449,7 +449,7 @@ extension watchConnect: WCSessionDelegate {
         }
     }
     func sessionDidBecomeInactive(_ session: WCSession) {
-        let groupUserDefaults = UserDefaults(suiteName: "group.com.tsg0o0.sh1rga")
+        let groupUserDefaults = UserDefaults(suiteName: "group.com.tsg0o0.sh1rgagroup")
         let address = groupUserDefaults!.string(forKey: "chat.customServer") ?? "https://chat.api-sh1r.ga"
         WCSession.default.transferUserInfo(["address" : address])
     }

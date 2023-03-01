@@ -18,7 +18,7 @@ class ViewController: UIViewController , WKNavigationDelegate , WKUIDelegate , U
     var webView: WKWebView!
     var firstTime = true
     var internetConnection = false
-    let groupUserDefaults = UserDefaults(suiteName: "group.com.tsg0o0.sh1rga")
+    let groupUserDefaults = UserDefaults(suiteName: "group.com.tsg0o0.sh1rgagroup")
 
     override func viewDidLoad() {
         super.viewDidLoad()

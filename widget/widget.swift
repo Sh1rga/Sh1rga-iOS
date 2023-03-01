@@ -25,7 +25,7 @@ struct Provider: IntentTimelineProvider {
 
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         
-        let groupUserDefaults = UserDefaults(suiteName: "group.com.tsg0o0.sh1rga")
+        let groupUserDefaults = UserDefaults(suiteName: "group.com.tsg0o0.sh1rgagroup")
         let serverAddress = groupUserDefaults!.string(forKey: "chat.customServer")
         
         
