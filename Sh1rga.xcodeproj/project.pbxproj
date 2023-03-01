@@ -783,14 +783,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga Sticker/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.sticker;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -804,14 +804,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga Sticker/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.sticker;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -825,14 +825,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga Sticker/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.sticker;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -846,14 +846,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga Sticker/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.sticker;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -869,8 +869,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Widget";
@@ -881,8 +881,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widget;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widgetex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -900,8 +900,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Widget";
@@ -912,8 +912,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widget;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widgetex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -931,8 +931,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Widget";
@@ -943,8 +943,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widget;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widgetex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -962,8 +962,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Widget";
@@ -974,8 +974,8 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widget;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.widgetex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -1053,8 +1053,8 @@
 				BACKGROUND_ENABLE = location;
 				CODE_SIGN_ENTITLEMENTS = sh1rga/sh1rga.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GCC_PREPROCESSOR_DEFINITIONS = "ALTRELEASE=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = sh1rga/Info.plist;
@@ -1074,7 +1074,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.3.9;
 				OTHER_SWIFT_FLAGS = "-D ALTRELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1218,8 +1218,8 @@
 				BACKGROUND_ENABLE = location;
 				CODE_SIGN_ENTITLEMENTS = sh1rga/sh1rga.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = sh1rga/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
@@ -1238,7 +1238,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.3.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1260,8 +1260,8 @@
 				BACKGROUND_ENABLE = location;
 				CODE_SIGN_ENTITLEMENTS = sh1rga/sh1rga.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = sh1rga/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
@@ -1280,7 +1280,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.3.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1300,9 +1300,9 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Sh1rga Watch Watch App/Sh1rga Watch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "\"Sh1rga Watch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga-Watch-Watch-App-Info.plist";
@@ -1312,8 +1312,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watch;
 				PRODUCT_NAME = Sh1rga;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1332,9 +1332,9 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Sh1rga Watch Watch App/Sh1rga Watch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "\"Sh1rga Watch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga-Watch-Watch-App-Info.plist";
@@ -1344,8 +1344,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watch;
 				PRODUCT_NAME = Sh1rga;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1364,9 +1364,9 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Sh1rga Watch Watch App/Sh1rga Watch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "\"Sh1rga Watch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga-Watch-Watch-App-Info.plist";
@@ -1376,8 +1376,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watch;
 				PRODUCT_NAME = Sh1rga;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1396,9 +1396,9 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Sh1rga Watch Watch App/Sh1rga Watch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "\"Sh1rga Watch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga-Watch-Watch-App-Info.plist";
@@ -1408,8 +1408,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watchkitapp;
+				MARKETING_VERSION = 0.3.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga.watch;
 				PRODUCT_NAME = Sh1rga;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1488,8 +1488,8 @@
 				BACKGROUND_ENABLE = fetch;
 				CODE_SIGN_ENTITLEMENTS = sh1rga/sh1rga.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = sh1rga/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Sh1rga;
@@ -1508,7 +1508,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.3.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tsg0o0.sh1rga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1528,8 +1528,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Sh1rga Chat Clip/Sh1rga_Chat_Clip.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga Chat Clip/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Chat";
@@ -1544,7 +1544,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.3.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tsg0o0.sh1rga.chat-clip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1564,8 +1564,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Sh1rga Chat Clip/Sh1rga_Chat_Clip.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga Chat Clip/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Chat";
@@ -1580,7 +1580,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.3.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tsg0o0.sh1rga.chat-clip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1600,8 +1600,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Sh1rga Chat Clip/Sh1rga_Chat_Clip.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga Chat Clip/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Chat";
@@ -1616,7 +1616,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.3.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tsg0o0.sh1rga.chat-clip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1636,8 +1636,8 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Sh1rga Chat Clip/Sh1rga_Chat_Clip.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 24;
-				DEVELOPMENT_TEAM = PN7VT53C27;
+				CURRENT_PROJECT_VERSION = 25;
+				DEVELOPMENT_TEAM = Z8R89S24YT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sh1rga Chat Clip/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sh1rga Chat";
@@ -1652,7 +1652,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3.8;
+				MARKETING_VERSION = 0.3.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tsg0o0.sh1rga.chat-clip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
