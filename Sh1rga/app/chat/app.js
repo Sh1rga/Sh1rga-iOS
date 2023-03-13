@@ -108,7 +108,7 @@ async function msgMove() {
 }
 
 var connected = false;
-const socket = io.connect( address_api );
+const socket = io.connect( address_api , { transports : ['websocket'] } );
 
 //To pass the App Store's review process
 //function banCheck() {
