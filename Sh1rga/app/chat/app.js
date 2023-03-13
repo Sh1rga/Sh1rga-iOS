@@ -193,10 +193,7 @@ if (langFlag == false) {
 }
 
 var enc_bits = 2048;
-var enc_len = 16;
-var enc_str = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var enc_strLen = enc_str.length;
-var enc_result = "";
+var enc_seed = new Uint32Array(1);
 var ThisIsStart = false;
 var appBox = document.getElementById('box');
 
@@ -268,10 +265,9 @@ function setEncBit(strength) {
 
 function preCrypt() {
 	cryptFlag = true;
-	for (var i = 0; i < enc_len; i++) {
-		enc_result += enc_str[Math.floor(Math.random() * enc_strLen)];
-	}
-	my_decrypt = cryptico.generateRSAKey(enc_result, enc_bits);
+    enc_seed = new Uint32Array(1);
+    crypto.getRandomValues(enc_seed);
+    my_decrypt = cryptico.generateRSAKey(String(enc_seed[0]), enc_bits);
 	my_encrypt = cryptico.publicKeyString(my_decrypt);
 	if (ThisIsStart == true) {
 		cryptFlag = false;
@@ -571,6 +567,7 @@ function eraser() {
 	my_encrypt = "";
 	my_decrypt = "";
 	encrypt_key = "";
+    enc_seed = [0];
 	roomID = 240000000000;
 	userID = 240000000000;
 	userID_crypt = "";
